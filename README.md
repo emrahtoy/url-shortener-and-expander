@@ -78,10 +78,9 @@ $urlExpander = new \UrlCompressor\Expander($connection, $config);
 // using Predis Client with Doctrine Cache
 try{
     $cacheConfig = [
-        'server' => array(
-            'host' => '127.0.0.1',
-            'port' => 6379
-        ),
+        'scheme' => 'tcp',
+        'host' => '127.0.0.1',
+        'port' => 6379,
         'password' => 'supersecretauthentication' // if you have set authentication on redis
     ];
     
