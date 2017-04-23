@@ -9,7 +9,7 @@ namespace UrlCompressor;
  * Class Extend
  * @package UrlCompressor
  */
-class Expand extends Common
+class Expander extends Common
 {
 
 

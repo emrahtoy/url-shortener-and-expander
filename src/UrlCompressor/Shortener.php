@@ -11,7 +11,7 @@ namespace UrlCompressor;
  * @package UrlCompressor
  * @version 0.1
  */
-class Shorten extends Common
+class Shortener extends Common
 {
 
     public function shorten($url = '')
