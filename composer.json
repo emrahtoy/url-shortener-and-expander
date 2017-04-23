@@ -1,0 +1,22 @@
+{
+  "name": "emrahtoy/url-shortener-and-expander",
+  "description": "Url shortener and expander library",
+  "keywords": ["shorten","shortener","expander","url","url shorten","url shortener","url expander","bitly","bit.ly"],
+  "type": "library",
+  "homepage": "https://github.com/emrahtoy/url-shortener-and-expander",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Emrah TOY",
+      "email": "code@emrahtoy.com",
+      "homepage": "http://www.emrahtoy.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "doctrine/cache": "v1.6.1"
+  },
+  "autoload": {
+    "psr-0": {"UrlCompressor\\": "src/"}
+  }
+}
