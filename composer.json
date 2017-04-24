@@ -4,7 +4,7 @@
   "keywords": ["shorten","shortener","expander","url","url shorten","url shortener","url expander","bitly","bit.ly"],
   "type": "library",
   "homepage": "https://github.com/emrahtoy/url-shortener-and-expander",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "authors": [
     {
       "name": "Emrah TOY",
