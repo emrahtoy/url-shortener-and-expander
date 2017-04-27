@@ -13,7 +13,6 @@ CREATE TABLE `shortenedurls` (
   `long_url` varchar(255) NOT NULL,
   `created` int(10) unsigned NOT NULL,
   `creator` char(15) NOT NULL,
-  `referrals` int(10) unsigned NOT NULL DEFAULT '0',
   `short_code` varchar(6) DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `long` (`long_url`),
