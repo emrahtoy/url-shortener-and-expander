@@ -60,7 +60,7 @@ class Shortener extends Common
             $this->saveToCache();
             return true;
 
-        } catch (Exception $e) {
+        } catch (\PDOException $e) {
             $this->dbConnection->rollBack();
             $this->result->error($e->getMessage());
             return false;
